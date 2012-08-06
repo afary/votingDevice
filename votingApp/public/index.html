@@ -1,0 +1,53 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+
+    <title>Voting App </title>
+    <meta name="author" content="Fary Mo<fm67@njit.edu>">
+
+    <link rel="stylesheet" href="style/votestyle.css" media="screen, projection">
+    
+
+    <script src="js/vendor/modernizr-1.6.min.js"></script>
+    <script src="js/vendor/jquery-1.5.1.min.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/backbone.js"></script>
+    <script src="js/Votes.js"></script>
+
+    <script type="text/template" id="vote-template">
+      <span class="vote-question"><%= question %></span>
+	  <br />
+          <br />
+	  <input type="radio" name="vote" id=" " value="true"> True </input>
+	  <br />
+	  <input type="radio" name="vote" id=" " value="false"> False </input>
+	  <br />
+	  <br />
+	  <input type="button" id="submit" value="Enter" />
+      
+      
+    </script>
+
+
+  </head>
+
+  <body>
+    <div id ="task"> Node.js/Backbone.js Clicker App</div>
+    <br />
+    <br />
+
+    <div id="container">
+    
+    </div>
+    <br />
+    <br />
+
+    <div id="conversation"></div>
+  </body>
+</html>

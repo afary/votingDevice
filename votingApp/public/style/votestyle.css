@@ -1,0 +1,72 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Calibri", "sans";
+	background:#008080;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#task {
+    margin-top:50px;
+    font:bold 25px Georgia, serif;
+    color:#8B0000; 
+    border-bottom:1px solid #efece7;
+    width:500px;
+		
+}
+
+#submit{  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #8B0000;
+    border: 0;  
+    font: bold 14px/1.6em Arial, Helvetica, sans-serif;
+    color: #FFFFFF;  
+    }
+	
+#message {
+    margin-top: 75px;
+	width:200px;
+	height:200px;
+	overflow:scroll-y;
+	padding:20px;
+	font: bold 14px/1.6em Arial, Helvetica, sans-serif;
+	color: #A9A9A9;
+	background: #008070;
+}
+
+
+.footer {
+    padding:8px 8px;
+    margin-bottom:50px;
+    margin-top:300px;
+    clear:both;
+    font: bold 14px/1.6em Arial, Helvetica, sans-serif;
+    color:#A9A9A9;
+    text-align:center;
+}
+
+
+
+
+#container {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.vote-question {
+    padding: .3em;
+    font-style: normal;
+    font-weight: bold;
+    color: #9ACD32;
+    font-size: 18px;
+    
+}
+#conversation {
+    padding: .3em;
+    font-style: normal;
+    font-weight: bold;
+    color: #9ACD32;
+    font-size: 18px;
+}
+
